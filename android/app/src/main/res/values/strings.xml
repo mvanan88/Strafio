@@ -2,9 +2,12 @@
 <resources>
 
     <string name="app_name">Strafio</string>
-    <string name="facebook_app_id">1234</string>
     <string name="fb_login_protocol_scheme">fb1234</string>
-    <string name="facebook_client_token">56789</string>
+    <!--<string name="facebook_app_id">951196665561360</string>
+    <string name="facebook_client_token">e62e5d74d3da17eaf64dc6e52cdde138</string>-->
+
+    <string name="facebook_app_id">670251857341764</string>
+    <string name="facebook_client_token">a4b7fd00fc3465699956a95c3fcc0183</string>
 
 
 </resources>

@@ -2,12 +2,17 @@
     package="com.lp.strafio.strafio">
     <queries>
         <provider android:authorities="com.facebook.katana.provider.PlatformProvider" />
+        <provider android:authorities="com.facebook.orca.provider.PlatformProvider" />
     </queries>
-    <uses-permission android:name="android.permission.INTERNET"/>
    <application
         android:label="strafio"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+
+
+       <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+       <meta-data android:name="com.facebook.sdk.ClientToken" android:value="@string/facebook_client_token"/>
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -50,9 +55,6 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
-
-       <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="670251857341764"/>
-       <meta-data android:name="com.facebook.sdk.ClientToken" android:value="a4b7fd00fc3465699956a95c3fcc0183"/>
 </application>
-
+    <uses-permission android:name="android.permission.INTERNET"/>
 </manifest>
