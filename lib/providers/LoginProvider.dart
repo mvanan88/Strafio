@@ -7,6 +7,7 @@ class LoginProvider extends ChangeNotifier {
   String? email;
   String? password;
   String? error;
+  int mode = 0; //mode 0 - phone number login 1- email login
   bool isError = false;
   bool passwordVisible = true;
   final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();

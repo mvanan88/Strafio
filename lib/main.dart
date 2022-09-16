@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 import 'package:strafio/connectivity/connectivity_status.dart';
 import 'package:strafio/providers/HomeProvider.dart';
 import 'package:strafio/providers/LoginProvider.dart';
+import 'package:strafio/providers/OTPProvider.dart';
 import 'package:strafio/providers/SplashProvider.dart';
 
 import 'screens/SplashScreen.dart';
@@ -27,6 +28,7 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(create: (_) => SplashProvider(context)),
         ChangeNotifierProvider(create: (_) => LoginProvider()),
         ChangeNotifierProvider(create: (_) => HomeProvider()),
+        ChangeNotifierProvider(create: (_) => OTPProvider()),
         ChangeNotifierProvider(create: (_) => ConnectivityProvider()),
       ],
       child: MaterialApp(

@@ -175,7 +175,7 @@ class Signup extends StatelessWidget {
                               ),InkWell(
                                 onTap: ()=> FireAuth.signInWithGoogle(context: context),
                                 child: SvgPicture.asset(
-                                  "assets/images/logo/mobile_login.svg",
+                                  "assets/images/logo/mobile_signin.svg",
                                 ),
                               ),
                             ],
